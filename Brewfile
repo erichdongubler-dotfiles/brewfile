@@ -3,7 +3,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "wez/wezterm"
-brew "atuin"
+brew "atuin", restart_service: :changed
 brew "bat"
 brew "cmake"
 brew "fd"
